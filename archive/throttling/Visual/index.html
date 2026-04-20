@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Order - Different Waiters</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-column">
+        <h3>Total Clicks :<span id="totalCount">0</span></h3>
+        <button class="food-btn">🍔</button>
+        <button class="food-btn">🍕</button>
+        <button class="food-btn">🍗</button>
+        <button class="food-btn">🥕</button>
+        <button class="food-btn">🍦</button>
+      </div>
+      <div class="right-column">
+        <div class="waiter-row">
+          <div class="waiter-title">💁‍♂️ Normal Waiter</div>
+          <p id="normalDisplay">No order yet...</p>
+          <div class="order-count">
+            Orders taken: <span id="normalCount">0</span>
+          </div>
+        </div>
+
+        <div class="waiter-row">
+          <div class="waiter-title">
+            🤵 Debounced Waiter (Waits 2s after last order, then takes order)
+          </div>
+          <p id="debounceDisplay">No order yet...</p>
+          <div class="order-count">
+            Orders taken: <span id="debounceCount">0</span>
+          </div>
+        </div>
+
+        <div class="waiter-row">
+          <div class="waiter-title">
+            👨‍🍳 Throttled Waiter (Takes order every 2s)
+          </div>
+          <p id="throttleDisplay">No order yet...</p>
+          <div class="order-count">
+            Orders taken: <span id="throttleCount">0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

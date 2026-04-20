@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "price": 25.99,
+    "company": "LogiTech"
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "price": 89.99,
+    "company": "KeyChron"
+  },
+  {
+    "id": 3,
+    "name": "Noise Cancelling Headphones",
+    "price": 199.99,
+    "company": "Sony"
+  },
+  {
+    "id": 4,
+    "name": "Smartphone Stand",
+    "price": 14.99,
+    "company": "Anker"
+  },
+  {
+    "id": 5,
+    "name": "4K Monitor",
+    "price": 349.99,
+    "company": "Samsung"
+  },
+  {
+    "id": 1766553158837,
+    "productName": "Wireless Keyboard",
+    "productPrice": 75.99,
+    "productcompany": "LogiTech",
+    "name": "Wireless Keyboard",
+    "price": 75.99,
+    "company": "Log-Tech"
+  }
+]

@@ -1,0 +1,39 @@
+DeveOps
+- Software development lifecycle (Agile vs DevOps)
+- DeveOps
+- CI/CD
+- Github actions
+- Docker 
+- Jenkins
+- Kubernates 
+
+
+Cloud 
+- Cloud computing Introduction 
+- Service Architechture layer
+- Load balancer, Virtualization 
+- VM
+- AWS/Azure
+
+
+OS (Theory)
+- Introduction (Types/need)
+- OS processes and algorithm (Brute -> Optimized) (C language)
+- DeadLock (Types)
+- Memory management
+- Install Linux and Practical
+
+
+Computer organization and architechture (COA)
+
+
+Soft Skill
+- Presentation 
+- Verbal communication 
+- Group discussion
+
+
+Advance Java
+- Database
+- UI
+- Spring boot (CRUD, Authentication, database connectivity) 

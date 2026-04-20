@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "React Implementation Questions",
+    "description": "Complete React Implementation Questions",
+    "start-date": "16-10-2025",
+    "end-date": "20-10-2025",
+    "status": "completed"
+  },
+  {
+    "id": 2,
+    "title": "Backend Bug Fixing",
+    "description": "Fix task CRUD bugs in Express backend",
+    "start-date": "21-10-2025",
+    "end-date": "22-10-2025",
+    "status": "completed"
+  },
+  {
+    "id": 3,
+    "title": "Navbar Implementation",
+    "description": "Create navbar with search and add task button",
+    "start-date": "23-10-2025",
+    "end-date": "24-10-2025",
+    "status": "in-progress"
+  },
+  {
+    "id": 4,
+    "title": "Task Modal UI",
+    "description": "Add and Edit task modal popups",
+    "start-date": "24-10-2025",
+    "end-date": "25-10-2025",
+    "status": "not-started"
+  },
+  {
+    "id": 5,
+    "title": "Delete Confirmation Alert",
+    "description": "Add confirmation popup before deleting a task",
+    "start-date": "25-10-2025",
+    "end-date": "25-10-2025",
+    "status": "not-started"
+  },
+  {
+    "id": 6,
+    "title": "Search Functionality",
+    "description": "Filter tasks using search bar in navbar",
+    "start-date": "26-10-2025",
+    "end-date": "26-10-2025",
+    "status": "not-started"
+  },
+  {
+    "id": 7,
+    "title": "Hello",
+    "description": "sbdasbd",
+    "startDate": "2001-01-01",
+    "endDate": "2025-12-09",
+    "status": "not-started"
+  }
+]

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id = "button">Click me</button>
+</body>
+<script>
+    function throttle(task, time){
+        let lastCall = 0;
+        return function(){
+            let current = Date.now();
+            if(current - lastCall >= time){
+                task();
+                lastCall = current;
+            }
+        }
+
+    }
+
+    function sayTime(){
+        console.log(`${Date()}`);
+    }
+    const throttledTask = throttle(sayTime, 2000);
+    const button = document.getElementById("button");
+    button.addEventListener('click', throttledTask);
+
+</script>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Throttling</title>
+
+</head>
+
+<body>
+
+</body>
+<script>
+   function throttling(sendMessage, timeDelay) {
+    let lastCall = 0;
+    return function(message) {
+        const now = Date.now();
+        if (now - lastCall >= timeDelay) {
+            sendMessage(message); 
+            lastCall = now;
+        }
+    }
+}
+
+function sendMessage(message) {
+    console.log(`Send Message:`, message);
+}
+
+const sendMessageWithThrottle = throttling(sendMessage, 5000);
+
+sendMessageWithThrottle('Hi');       
+sendMessageWithThrottle('Hi Hello'); 
+sendMessageWithThrottle('Hi Hi');    
+
+    // sendMessage('Hello');
+    // sendMessage('Hello');
+    // sendMessage('Hello');
+    // sendMessage('Hello');
+    // sendMessage('Hello');
+</script>
+
+</html>
